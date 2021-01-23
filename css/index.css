@@ -1,0 +1,70 @@
+body{
+  background: rgba(227, 100, 20, 0.3 );
+  width: 100vw;
+  margin: 0px;
+  border: 0px;
+  font-family: 'Lato', sans-serif;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+
+}
+header, footer{
+  /* background: #d90429; */
+  padding-left: 0;
+  width: 100vw;
+  margin: 0px;
+  color: white;
+  font-family: 'Yusei Magic', sans-serif;
+  text-align: center;
+}
+header{
+  border: solid 3px #00296b;
+  /* background-image: linear-gradient(rgba(252, 191, 73, 0.9), #003049, rgba(252, 191, 73, 0.9)); */
+  height: 40vh;
+  background-image: linear-gradient(to right, rgba(227, 100, 20, 0.3 ) ,#d90429 , rgba(227, 100, 20, 0.3 ));
+
+}
+header h1{
+  padding-top: 1%;
+  font-size: 3em;
+  /* text-shadow: 5px 5px 2px lightGrey; */
+}
+header p{
+  font-size: 120%;
+}
+p{
+  font-size: 1.1em;
+}
+.instructions, .main-button{
+  font-size: 2em;
+  padding-bottom: 1%;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Yusei Magic', sans-serif;
+}
+.second{
+  text-align: center;
+  padding-bottom: 1%;
+}
+a{
+  font-size: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover{
+  border: solid 1px black;
+  background-color: rgba(227, 100, 20, 0.3 );
+  border-radius: 20%;
+  color: black;
+}
+ul{
+  font-size: 1.1em;
+}
+li{
+  padding-bottom: 1%;
+}
+footer{
+  background-color: #d90429 ;
+  border: solid 3px #00296b;
+}

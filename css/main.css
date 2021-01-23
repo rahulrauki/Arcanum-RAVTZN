@@ -1,0 +1,123 @@
+body{
+  background: rgba(227, 100, 20, 0.3 );
+  width: 90vw;
+  margin: 0px;
+  border: 0px;
+  font-family: 'Lato', sans-serif;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+
+}
+header, footer{
+  /* background: #d90429; */
+  padding-left: 0;
+  width: 100vw;
+  margin: 0px;
+  color: white;
+  font-family: 'Yusei Magic', sans-serif;
+  text-align: center;
+}
+header{
+  border: solid 3px #00296b;
+  /* background-image: linear-gradient(rgba(252, 191, 73, 0.9), #003049, rgba(252, 191, 73, 0.9)); */
+  height: 40vh;
+  background-image: linear-gradient(to right, rgba(227, 100, 20, 0.3 ) ,#d90429 , rgba(227, 100, 20, 0.3 ));
+
+}
+header h3{
+  padding-top: 1%;
+  font-size: 3em;
+  /* text-shadow: 5px 5px 2px lightGrey; */
+}
+header p{
+  font-size: 120%;
+}
+footer{
+  background-color: #d90429 ;
+  border: solid 3px #00296b;
+}
+div{
+  border: solid 3px #00296b;
+  border-radius: 5%;
+  padding: 1.25%;
+  padding-top: 0.5%;
+  margin: 0px;
+  margin-left: 10vw;
+  background: rgba(255, 208, 0, 0.4);
+  animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+div:hover{
+  box-shadow: 10px 10px 5px #6d597a;
+  border: outset 2px #2b2d42;
+}
+div + p{
+  font-size: 150%;
+}
+.errors{
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 150%;
+  text-align: center;
+  display: none;
+}
+label{
+  font-size: 120%;
+}
+input[type=text]{
+  padding: 1%;
+  border-radius: 30%;
+  margin-left: 1.5%;
+}
+input[type=submit]{
+  color: white;
+  background-image: linear-gradient(#d90429 , rgba(255, 208, 0, 0.9));
+  padding: 1%;
+  font-family: 'Lato', sans-serif;
+  border-radius: 25%;
+  margin-left: 1.5%;
+}
+input[type=submit]:hover{
+  background-image: linear-gradient(to top, #d90429 , rgba(255, 208, 0, 0.9));
+  /* color: white;
+  padding: 1%;
+  font-family: 'Lato', sans-serif;
+  border-radius: 25%;
+  margin-left: 1.5%; */
+}
+.final{
+  font-size: 130%;
+}
+a{
+  font-size: 1.1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover{
+  border: solid 1px black;
+  background-color: rgba(227, 100, 20, 0.3 );
+  border-radius: 20%;
+  color: black;
+}
+.ciphertext{
+  word-wrap:break-word;
+  color: darkBlue;
+  background-color: rgba(250, 225, 221, 0.7);
+  padding: 1%;
+  border-radius: 10%;
+}
+.quote{
+  margin-right: : 10%;
+}
+.worldmap{
+  /* border: solid 3px #00296b;  */
+  border-radius: 5%;
+}
